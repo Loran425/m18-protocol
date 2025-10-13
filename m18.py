@@ -118,9 +118,9 @@ data_id = [
     [0x905C, 2,  "uint",  "          @ 180-190A    "], 
     [0x905E, 2,  "uint",  "          @ 190-200A    "], 
     [0x9060, 2,  "uint",  "          @ 200-210A    "], 
-    [0x9062, 2,  "uint",  "Unknown (larger in lower Ah packs)"], 
-    [0x9064, 2,  "uint",  "Discharge @ 10-15A (seconds)"], 
-    [0x9066, 2,  "uint",  "          @ 15-20A (could be watts)"], 
+    [0x9062, 2,  "uint",  "Discharge @ 5-10A (seconds)"], 
+    [0x9064, 2,  "uint",  "          @ 10-15A (could be watts)"], 
+    [0x9066, 2,  "uint",  "          @ 15-20A (histo not well understood yet)"], 
     [0x9068, 2,  "uint",  "          @ 20-25A      "], 
     [0x906A, 2,  "uint",  "          @ 25-30A      "], 
     [0x906C, 2,  "uint",  "          @ 30-35A      "], 
@@ -230,14 +230,14 @@ data_id = [
     [0x913C, 2,  "uint",  "Unknown"], 
     [0x913E, 2,  "uint",  "Unknown"], 
     [0x9140, 2,  "uint",  "Unknown"], 
-    [0x9142, 2,  "uint",  "Unknown"], 
-    [0x9144, 2,  "uint",  "Unknown"], 
-    [0x9146, 2,  "uint",  "Unknown"], 
-    [0x9148, 2,  "uint",  "Unknown (days of use?)"], 
-    [0x914A, 2,  "uint",  "Unknown"],       # 180
-    [0x914C, 2,  "uint",  "Unknown"], 
-    [0x914E, 2,  "uint",  "Unknown"], 
-    [0x9150, 2,  "uint",  "Unknown"],       #183
+    [0x9142, 2,  "uint",  "Unknown histogram (temperature?)"], 
+    [0x9144, 2,  "uint",  "Unknown histogram"], 
+    [0x9146, 2,  "uint",  "Unknown histogram"], 
+    [0x9148, 2,  "uint",  "Unknown histogram"], 
+    [0x914A, 2,  "uint",  "Unknown histogram"],       # 180
+    [0x914C, 2,  "uint",  "Unknown histogram"], 
+    [0x914E, 2,  "uint",  "Unknown histogram"], 
+    [0x9150, 2,  "uint",  "Unknown histogram"],       #183
 ]
 
 
