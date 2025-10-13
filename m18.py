@@ -386,6 +386,7 @@ class M18:
         debug_print = " ".join(f"{byte:02X}" for byte in lsb_response)
         if self.PRINT_RX:
             print(f"Received: {debug_print}")
+        time.sleep(0.05)
         return lsb_response
 
     def configure(self, state):
